@@ -1,0 +1,76 @@
+@media screen and (max-width: 500px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-size: 90%;
+  }
+
+  header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  header ul {
+    flex-direction: column;
+    padding: 1rem 0;
+  }
+
+  header ul li {
+    padding: 0.5rem 0;
+  }
+
+  .vp {
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+
+  .vp-content h1 {
+    font-size: 1.5rem;
+  }
+
+  .vp-content p {
+    font-size: 1.1rem;
+  }
+
+  .offer {
+    padding: 3rem 1rem;
+  }
+
+  .offer-list {
+    flex-direction: column;
+  }
+
+  .offer-item {
+    margin: 1rem 0;
+  }
+
+  .team {
+    flex-direction: column;
+  }
+
+  .team-text {
+    padding: 2rem;
+  }
+
+  .contact {
+    padding: 3rem 1rem;
+  }
+
+  .comments {
+    padding: 2rem 1rem;
+  }
+
+  .comment {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .comment-text {
+    padding: 1rem 0;
+  }
+}
