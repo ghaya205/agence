@@ -1,14 +1,4 @@
 @media screen and (max-width: 500px) {
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
-  body {
-    font-size: 90%;
-  }
-
   header {
     flex-direction: column;
     align-items: center;
@@ -30,11 +20,11 @@
   }
 
   .vp-content h1 {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 
   .vp-content p {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
   }
 
   .offer {
@@ -52,7 +42,9 @@
   .team {
     flex-direction: column;
   }
-
+  .team-img {
+    min-height: 300px;
+  }
   .team-text {
     padding: 2rem;
   }
